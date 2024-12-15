@@ -6,7 +6,7 @@ on:
 
 jobs:
   consensus:
-    if: ${{ (github.event.comment.author_association == 'COLLABORATOR' || github.event.comment.author_association == 'OWNER') && contains(github.event.comment.body, '/consensus') }}
+    if: ${{ github.event.comment.author_association == 'COLLABORATOR' && contains(github.event.comment.body, '/consensus') }}
     uses: withstudiocms/automations/.github/workflows/discord-msg.yml@main
     secrets: 
       DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_CONSENSUS }}
