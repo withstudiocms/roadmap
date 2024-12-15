@@ -100,4 +100,4 @@ Astro features are discussed using a model called [Consensus-seeking decision-ma
 
 #### Prior Art / Special Thanks
 
-This process is adopted based on [Astro's RFC/proposal process](https://github.com/withastro/roadmap) which is based on [Remix's Open Development process](https://remix.run/blog/open-development), which had been based on the RFC processeses of the Vue, React, Rust, and Ember projects.
+This process is adopted based on [Astro's RFC/proposal process](https://github.com/withastro/roadmap) which is based on [Remix's Open Development process](https://remix.run/blog/open-development), which had been based on the RFC processes of the Vue, React, Rust, and Ember projects.
