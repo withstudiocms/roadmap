@@ -28,9 +28,9 @@
 
 **Goal:** Unstructured, low-friction conversations on ideas and improvements to Astro. Useful for gathering early feedback and gauging interest with the community and maintainers.
 
-**Requirements:** None! To suggest an improvement, [create a new Discussion](https://github.com/withstudiocms/roadmap/discussions) using our (completely optional) [proposal template]().
+**Requirements:** None! To suggest an improvement, [create a new Discussion](https://github.com/withstudiocms/roadmap/discussions) using our (completely optional) [proposal template](https://github.com/withstudiocms/roadmap/discussions/new?category=proposal).
 
-**Location:** GitHub Discussions [(see all open proposals).](https://github.com/withstudiocms/roadmap/discussions) The StudioCMS Discord channel `#contribute` can also be used to throw an idea out for quick initial feedback, but be warned that chat is short-lived and not designed for longer-lived discussion.
+**Location:** GitHub Discussions [(see all open proposals).]([https://github.com/withstudiocms/roadmap/discussions](https://github.com/withstudiocms/roadmap/discussions/categories/proposal)) The StudioCMS Discord channel `#contribute` can also be used to throw an idea out for quick initial feedback, but be warned that chat is short-lived and not designed for longer-lived discussion.
 
 ## Stage 2: Accepted Proposal
 
@@ -58,7 +58,7 @@ A stale, accepted proposal can be removed (rejected after a previous acceptance)
 
 **Location:** GitHub Pull Requests [(see all in-progress RFCs)](https://github.com/withstudiocms/roadmap/pulls) [(see all finished RFCs)](https://github.com/studiocms/roadmap/tree/main/proposals)
 
-**What to Expect:** To create an RFC for an already-accepted proposal, the proposal champion must use our [`stage-3--rfc-template.md`]() RFC template in the repo. The initial sections of the RFC template should be copy-pasted from the the accepted proposal (they match 1:1). All remaining sections are left for the champion to complete with the implementation and tradeoff details of the RFC.
+**What to Expect:** To create an RFC for an already-accepted proposal, the proposal champion must use our [`stage-3--rfc-template.md`](./stage-3--rfc-template.md?plain-1) RFC template in the repo. The initial sections of the RFC template should be copy-pasted from the the accepted proposal (they match 1:1). All remaining sections are left for the champion to complete with the implementation and tradeoff details of the RFC.
 
 When a Stage 3 RFC is opened, the Stage 2 RFC should be closed with a comment that links to the Stage 3 RFC pull request.
 
