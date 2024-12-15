@@ -19,7 +19,13 @@ assignees: ''
 - Author: <!-- @mention the author (probably you!) -->
 - Champion(s): <!-- @mention any proposal champions (probably you!) -->
 - Implementation PR: <!-- leave empty -->
-- Repo link:
+- Repo link: <!-- Current project repo -->
+
+**Project Ownership:** By checking the following box (required) you agree that you are the rightful owner of the 
+project you wish to import into the StudioCMS Ecosystem, and you understand that you will be able to become a Code-Owner, 
+and your project will be licensed under StudioCMS's MIT license. (Your name can be on this license if you desire)
+
+- [ ] I agree
 
 # Summary
 
