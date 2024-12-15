@@ -1,0 +1,41 @@
+name: Consensus
+
+on:
+  issue_comment:
+    types: [created]
+
+jobs:
+  consensus:
+    if: ${{ (github.event.comment.author_association == 'COLLABORATOR' || github.event.comment.author_association == 'OWNER') && contains(github.event.comment.body, '/consensus') }}
+    uses: withstudiocms/automations/.github/workflows/discord-msg.yml@main
+    secrets: 
+      DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_CONSENSUS }}
+    with:
+      DISCORD_MESSAGE_EMBEDS: |
+        [
+          {
+            "id": 661098315,
+            "description": "<@&1309280037635231764> Please review the proposal and provide your feedback. If you agree, please react with a 👍. If you disagree, please react with a 👎.",
+            "fields": [
+              {
+                "id": 259239853,
+                "name": "Title",
+                "value": "${{ github.event.issue.title }}",
+                "inline": false
+              },
+              {
+                "id": 888373040,
+                "name": "Link",
+                "value": "[Proposal](${{ github.event.issue.html_url }})",
+                "inline": false
+              },
+            ],
+            "author": {
+              "name": "withStudioCMS Roadmap",
+              "icon_url": "https://github.com/astrolicious/studiocms/blob/main/www/assets/logo-discord.png?raw=true",
+              "url": "https://github.com/withstudiocms/roadmap"
+            },
+            "title": "🚀 A proposal Consensus has been requested!",
+            "color": 16561408
+          }
+        ]
