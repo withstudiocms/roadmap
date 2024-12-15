@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: "Stage 1 - Submit a Proposal"
+    url: https://github.com/withstudiocms/roadmap/discussions
+    about: Start here! Propose a new feature idea or enhancement for the StudioCMS Ecosystem.
+  - name: "Stage 3 - Submit an RFC"
+    url: https://github.com/withstudiocms/roadmap/pulls
+    about: Submit an RFC to implement an accepted proposal.
