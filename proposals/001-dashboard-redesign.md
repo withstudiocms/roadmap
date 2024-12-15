@@ -29,6 +29,7 @@ A proposal to redesign (and, if necessary, rewrite parts of) the StudioCMS dashb
 The current StudioCMS dashboard, while functional, leaves a lot to be desired in terms of UI/UX design. Since this project aspires to be the default CMS for all Astro projects big and small, a better dashboard is needed to facilitate the needs of multiple types of users - be it developers or office workers.
 
 ### Principles:
+
 - The dashboard should function on all devices.
 - The dashboard should provide an easy way to manage StudioCMS for everyone, not just developers
 - The dashboard should be easy to get used to
@@ -37,7 +38,9 @@ The current StudioCMS dashboard, while functional, leaves a lot to be desired in
 ## Figma Prototype
 
 I have created a [Figma board](https://www.figma.com/design/9ilUXDWbBVEv6FMSMzUTmf/StudioCMS-Concept?m=auto&t=8EDyorFtqAOuojKZ-1) and a matching [Figma prototype](https://www.figma.com/proto/9ilUXDWbBVEv6FMSMzUTmf/Untitled?page-id=0:1&node-id=12-323&node-type=frame&viewport=582,489,0.07&t=SN8G0ZTJgFZED3I5-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=25:1543&disable-default-keyboard-nav=1&hide-ui=1) that can be used to see an interactive early version of this concept. 
+
 ## Things that are needed for this to work
+
 - The plugin definition syntax needs to be reworked in order for plugins to be able to:
 	- Transform content before it is saved in the database
 	- Add cards to the homepage to display info at a glance
@@ -53,7 +56,8 @@ I have created a [Figma board](https://www.figma.com/design/9ilUXDWbBVEv6FMSMzUT
 
 **Feedback on design & functionality would be greatly appreciated! 😊**
 
-*Note: This UI change has been discussed on the [Astrolicious Discord Server](https://chat.astrolicious.dev/) in the `#studiocms` channel for a few days now. Refer to that for suggestions that have already been made.* 
+> [!NOTE]
+> This UI change has been discussed on the [Astrolicious Discord Server](https://chat.astrolicious.dev/) in the `#studiocms` channel for a few days now. Refer to that for suggestions that have already been made. 
 
 ## Amendments
 
@@ -62,8 +66,8 @@ I have created a [Figma board](https://www.figma.com/design/9ilUXDWbBVEv6FMSMzUT
 #### Login Page Prototype
 
 We (the community & I) have created a prototype for a login page that you can view in your browser:
-- https://louisescher.github.io/studiocms-login-test/ (Webpage)
-- https://github.com/louisescher/studiocms-login-test (GitHub Repo)
+- [Webpage](https://louisescher.github.io/studiocms-login-test/)
+- [GitHub Repo](https://github.com/louisescher/studiocms-login-test)
 
 Contributions for new StudioCMS-specific backgrounds or new looks (better glass material / outline) are appreciated. Just open a PR on the repo. A guide can be found in the `README.md` file. If you find any bugs / performance issues, please open up an issue on the repo.
 
