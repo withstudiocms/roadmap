@@ -20,7 +20,7 @@
 
 **Goal:** Have a project you feel would help benefit the StudioCMS Ecosystem? Already have a start on the project or a working project you wish to join into the main project org?
 
-**Requirements:** All you have to do is, [open a new issue](https://github.com/withstudiocms/roadmap/issues) using our [existing project template]().
+**Requirements:** All you have to do is, [open a new issue](https://github.com/withstudiocms/roadmap/issues) using our [existing project template](https://github.com/withstudiocms/roadmap/issues/new?assignees=&labels=&projects=&template=import-existing-project.md&title=).
 
 **Location:** GitHub Issues [(see current/past issues).](https://github.com/withstudiocms/roadmap/issues)
 
