@@ -4,6 +4,7 @@ about: 'This template is used for those who wish to import an existing project/r
 title: ''
 labels: ''
 assignees: ''
+type: 'RFC Stage 1'
 ---
 
 <!-- 
