@@ -4,6 +4,7 @@ about: 'This template is reserved for StudioCMS maintainers only.'
 title: ''
 labels: 'Accepted proposal'
 assignees: ''
+type: 'RFC Stage 2'
 ---
 
 <!-- 
