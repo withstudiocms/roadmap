@@ -22,19 +22,19 @@ jobs:
               {
                 "id": 259239853,
                 "name": "Title",
-                "value": "${{ github.event.issue.title }}",
+                "value": "${{ github.event.issue.title || github.event.discussion.title }}",
                 "inline": false
               },
               {
                 "id": 888373040,
                 "name": "Link",
-                "value": "[Proposal](${{ github.event.issue.html_url }})",
+                "value": "[Proposal](${{ github.event.issue.html_url || github.event.discussion.html_url }})",
                 "inline": false
               },
             ],
             "author": {
               "name": "withStudioCMS Roadmap",
-              "icon_url": "https://github.com/astrolicious/studiocms/blob/main/www/assets/logo-discord.png?raw=true",
+              "icon_url": "https://github.com/withstudiocms/studiocms/blob/main/assets/logo-discord.png?raw=true",
               "url": "https://github.com/withstudiocms/roadmap"
             },
             "title": "🚀 A proposal Consensus has been requested!",
