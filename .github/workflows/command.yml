@@ -1,6 +1,8 @@
 name: Consensus
 
 on:
+  discussion_comment:
+    types: [created]
   issue_comment:
     types: [created]
 
