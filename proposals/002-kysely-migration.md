@@ -23,11 +23,6 @@ Migrate StudioCMS from AstroDB to Kysely with new custom packages for handling.
 
 - Adam Matthiesen ([@Adammatthiesen](https://github.com/Adammatthiesen))
 
-# Example
-
-If the proposal involves a new or changed API, then include a basic code example.
-Otherwise, omit this section if it's not applicable.
-
 # Background & Motivation
 
 Currently we rely on AstroDB and drizzle-orm, which in their current configuration has some minor issues, but even once it technically supports multiple dialects there would be the issue of slight difference in the resulting drizzle client between dialects. This will make it difficult to properly support AstroDB once user's will be able to swap out their driver (since each table would need a different schema based on the current dialect).
