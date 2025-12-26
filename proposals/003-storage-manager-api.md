@@ -24,7 +24,7 @@
   - [withstudiocms/studiocms PR #1107](https://github.com/withstudiocms/studiocms/pull/1107)
   - [withstudiocms/studiocms PR #1108](https://github.com/withstudiocms/studiocms/pull/1108)
 - Stage 2 Issue: [withstudiocms/roadmap #10](https://github.com/withstudiocms/roadmap/issues/10)
-- Stage 3 PR: <!-- related roadmap PR, leave it empty if you don't have a PR yet -->
+- Stage 3 PR: [withstudiocms/roadmap #12](https://github.com/withstudiocms/roadmap/issues/12)
 
 # Summary
 
