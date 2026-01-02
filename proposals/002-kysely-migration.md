@@ -13,7 +13,7 @@
 - Reference Issues: <!-- related issues, otherwise leave empty -->
 - Implementation PR: [withstudiocms/studiocms PR #991](https://github.com/withstudiocms/studiocms/pull/991)
 - Stage 2 Issue: [withstudiocms/roadmap Issue #8](https://github.com/withstudiocms/roadmap/issues/8)
-- Stage 3 PR: <!-- related roadmap PR, leave it empty if you don't have a PR yet -->
+- Stage 3 PR: [withstudiocms/roadmap PR #9](https://github.com/withstudiocms/roadmap/pull/9)
 
 # Summary
 
