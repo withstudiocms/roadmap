@@ -1,0 +1,34 @@
+labels: ["Question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # General Q&A
+
+        Welcome! 👋
+
+        If you have a question about the StudioCMS Ecosystem, then you are in the right place! 
+
+        This template is completely optional! You are free to delete it, and use whatever format or length you prefer. You can always come back later to restructure your question.
+  - type: textarea
+    id: main
+    attributes:
+      label: Body
+      value: |
+        # Question
+
+        Please ask your question here. Be as detailed as you can, and include any relevant context that will help others understand your question.
+
+        # Context
+
+        If your question is related to a specific feature, product, or project, then please include that context here. This will help others understand the scope of your question and provide more accurate answers.
+
+        # Additional Information
+
+        If you have any additional information that you think would be helpful for others to know when answering your question, then please include it here. This could include links to relevant documentation, examples, or anything else that you think would be helpful.
+  - type: markdown
+    attributes:
+      value: |
+        [Get Support on discord](https://chat.studiocms.dev) to ask your question in real-time
+    validations:
+      required: true
